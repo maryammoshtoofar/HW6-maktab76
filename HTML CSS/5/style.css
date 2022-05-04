@@ -1,0 +1,94 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #eceef0;
+}
+
+.wrapper {
+  margin: auto;
+  margin-top: 5%;
+  width: 45%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+}
+
+.img {
+  background-image: url(./images/img.jpeg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+}
+
+.header {
+  color: #ffffff;
+  font-weight: 1000;
+  font-size: 34px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 70px;
+}
+
+form {
+  margin-top: 230px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_child {
+  color: #757575;
+  margin: 20px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+#username,
+#password {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #a7a7a7;
+  padding: 10px 200px 10px 10px;
+}
+
+a:link,
+a:visited {
+  color: #757575;
+}
+
+a:hover,
+label:hover {
+  color: #272727;
+}
+
+#forgot_password {
+  margin-left: 200px;
+}
+
+.button {
+  background-color: #70b452;
+  border: none;
+  border-radius: 70px;
+  color: #eceef0;
+  padding: 12px 55px;
+  margin-right: 330px;
+  font-size: 18px;
+  margin: top 10px;
+}
+
+.button:hover {
+  background-color: #53af2b;
+  font-size: 19px;
+}
