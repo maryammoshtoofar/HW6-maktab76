@@ -4,6 +4,7 @@
 
 function accumulatingArray(array) {
   let first = 0;
+  console.log("hi")
   return array.map((element) => (first += element));
 }
 console.log("********Question 1********");
